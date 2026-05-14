@@ -1,0 +1,157 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header a,
+#cadastro a,
+#login a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: #c0ffb0;
+}
+
+main {
+    margin: 50px;
+}
+
+main div {
+    padding: 10px;
+}
+
+header {
+    background-color: #dfffdf;
+    position: sticky;
+    top: 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+header nav a {
+    padding: 20px;
+}
+
+h1,
+h2 {
+    margin-top: 50px;
+    font-family: "Exo 2";
+    color: #050;
+}
+
+#dicas ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#dicas li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    width: 75%;
+    padding: 10px;
+    background-color: #00f00030; /* semitransparente por conta do canal alfa */
+    border-radius: 25px;
+}
+
+#dicas li p {
+    width: 75%;
+}
+
+p {
+    text-align: justify;
+    font-family: "Montserrat";
+}
+
+.container-img {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.img-lista {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+#imagem-ods-div {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#login {
+    margin: 50px;
+}
+
+#cadastro {
+    margin: 50px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #aaa;
+    color: #000;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: sans-serif;
+    border: 1px solid #999;
+    transition: background 0.1s;
+}
+
+.button:hover {
+    background-color: #bbb;
+    color: #000;
+}
+
+#estatisticas {
+    font-family: sans-serif;
+    max-width: 800px;
+    margin: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1px;
+    overflow: hidden;
+}
+
+.grid-header {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.grid-item {
+    background-color: #fff;
+    padding: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    bottom: 0;
+    background-color: #dfffdf;
+    padding: 10px;
+}
