@@ -9,17 +9,21 @@ Atua como um ambiente educacional e/ou informativo sobre a temática do consumo 
 
 Tal temática é inspirada diretamente pela lista de exemplos de temática no arquivo de descrição do projeto fornecido como enunciado.
 
+Pode ser acessado (clicando aqui)[https://s4un3.github.io/consumo-consciente-plastico/index.html].
+
+Ainda está sob desenvolvimento, mas já possui informações atuando de acordo com seu objetivo.
+
 ## Estrutura do projeto
 
 A partir da descrição fornecida no enunciado da atividade, as seguintes páginas foram desenvolvidas:
 
 * `index.html`: Página principal contendo informações como dicas para a redução do descarte de plástico e estatísticas da permanência do plástico na natureza. Também possui link para uma página de login a partir do menu de navegação.
 * `login.html`: Uma página simples de login apresentando campos de e-mail e senha, além dos botões de confirmação, voltar e de redirecionamento para o cadastro.
-* `cadastro.html`: página de cadastro e mudança de senha. Possui três seções principais consistindo das informações pessoais de cadastro, e-mail e senha a serem utilizados no login, e finalmente a redefinição de senha a partir das informações pessoais anteriormente cadastradas.
+* `cadastro.html`: página de cadastro e mudança de senha. Possui três seções principais consistindo das informações pessoais de cadastro (nome completo, apelido, data de nascimento), e-mail e senha a serem utilizados no login, e finalmente a redefinição de senha a partir das informações pessoais anteriormente cadastradas.
 * `imagens/`: diretório de imagens utilizadas em `index.html`
 * `style.css`: Arquivo de estilização para os três HTMLs.
 
-O cadastro e login atualmente não possuem integração com um banco de dados.
+O cadastro e login atualmente não possuem integração com um banco de dados, e nenhuma funcionalidade está bloqueada por login.
 
 ## Desenvolvedor
 
