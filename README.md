@@ -9,7 +9,7 @@ Atua como um ambiente educacional e/ou informativo sobre a temática do consumo 
 
 Tal temática é inspirada diretamente pela lista de exemplos de temática no arquivo de descrição do projeto fornecido como enunciado.
 
-Pode ser acessado (clicando aqui)[https://s4un3.github.io/consumo-consciente-plastico/index.html].
+Pode ser acessado [clicando aqui](https://s4un3.github.io/consumo-consciente-plastico/index.html).
 
 Ainda está sob desenvolvimento, mas já possui informações atuando de acordo com seu objetivo.
 
