@@ -116,6 +116,7 @@ p {
     font-family: sans-serif;
     border: 1px solid #999;
     transition: background 0.1s;
+    font-weight: bold;
 }
 
 .button:hover {
