@@ -27,4 +27,4 @@ O cadastro e login atualmente não possuem integração com um banco de dados, e
 
 ## Desenvolvedor
 
-O projeto foi desenvolvido por Pedro Henrique Sauné ([github](github.com/s4un3)).
+O projeto foi desenvolvido por Pedro Henrique Sauné ([github](https://github.com/s4un3)).
