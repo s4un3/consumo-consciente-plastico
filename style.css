@@ -156,3 +156,59 @@ footer {
     background-color: #dfffdf;
     padding: 10px;
 }
+
+#formAdm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.form-botoes {
+    display: flex;
+    gap: 10px;
+}
+
+.pesquisa-container {
+    margin: 20px 0;
+}
+
+.lista-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#btnExcluirTudo {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#listaUsuarios {
+    list-style: none;
+    padding: 0;
+}
+
+.usuario-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-excluir {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 3px 8px;
+    cursor: pointer;
+}
+
+.btn-excluir:hover {
+    background-color: #e60000;
+}
